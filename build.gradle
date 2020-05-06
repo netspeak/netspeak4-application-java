@@ -1,6 +1,5 @@
 // Apply plugins
 apply plugin: 'java'
-apply plugin: 'jacoco'
 
 // Basic configuration and settings for all (sub-)projects
 allprojects {

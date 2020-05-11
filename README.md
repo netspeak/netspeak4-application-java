@@ -12,6 +12,29 @@ This is a library. It does not contain a `main` method.
 
 We use [Gradle](https://gradle.org/install/) as our build system. To build this project run `./gradlew build`. Most Java IDEs support Gradle either directly or via some plugin.
 
+## Build
+
+```bash
+./gradlew build
+```
+
+The compiled JAR will be located at `build/libs/`
+
+### Library dependencies
+
+This Java project is a language binding for the C++ project [`netspeak4-application-cpp`](https://github.com/netspeak/netspeak4-application-cpp) whose
+implementation comes in form of a shared library (`.so` file). The present Java
+application loads the library at runtime and invokes their native routines via
+the Java Native Interface (JNI) method. Precompiled libraries for Ubuntu 10.04
+and 12.04 can be found in the lib sub-directory of this project. The native
+library itself has some dependencies you need to install as well.
+
+__Note:__ You only need to worry about the JNI if you use it. If you don't use it then it won't cause any errors.
+
+#### Load native library
+
+Set "-Djava.library.path=/usr/lib" as VM argument (assuming that the `libnetspeak4.so` lives there).
+
 
 ---
 

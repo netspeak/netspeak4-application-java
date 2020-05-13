@@ -1,6 +1,6 @@
 # Netspeak 4 application Java
 
-[![Actions Status](https://github.com/netspeak/netspeak4-indexing/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/netspeak/netspeak4-indexing/actions)
+[![Actions Status](https://github.com/netspeak/netspeak4-application-java/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/netspeak/netspeak4-application-java/actions)
 
 This is the Java interface of the Netspeak 4 core library.
 

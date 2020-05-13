@@ -1,5 +1,7 @@
 # Netspeak 4 application Java
 
+[![Actions Status](https://github.com/netspeak/netspeak4-indexing/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/netspeak/netspeak4-indexing/actions)
+
 This is the Java interface of the Netspeak 4 core library.
 
 All Java project which use Netspeak 4 need this library. It contains the Java classes of the Netspeak 4 protobuf messages and a JNI to create to Netspeak instances directly in Java.
